@@ -1,0 +1,7 @@
+<h2>NGRX</h2>
+<ul *ngFor="let todo of todos ; let i = index">
+    <li>
+        {{todo.title}}
+    </li>
+    <button (click)="Remove(i)">Remove</button>
+</ul>
